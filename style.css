@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+  
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    background-color: #24252a;
+}
+
+body {
+    background-color: rgb(24, 24, 24);
+}
+  
+.logo {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+}
+  
+.premium{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+}
+.premium {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+}
+  
+.premium:hover {
+    background-color: rgba(3, 113, 141, 0.8);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+#input-field {
+    width: 300px;
+    height: 46px;
+    outline: none;
+    font-size: 25px;
+    background-color: rgba(43, 42, 42, 0.247);
+    border: white;
+}
+
+#input:focus, input{
+    color: #edf0f1;
+}
+
+#add{
+    width: 40px;
+    height: 46px;
+    outline: none;
+    font-size: 25px;
+    background-color: rgba(0, 136, 169, 1);
+    color: #edf0f1;
+    border: none;
+    transition: background-color 0.3s ease 0s;
+}
+
+#add:hover{
+    background-color: rgba(3, 113, 141, 0.8);
+}
+
+.paragraph-styling {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    cursor: pointer;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
